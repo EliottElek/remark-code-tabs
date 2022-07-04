@@ -1,4 +1,4 @@
-# remark-tabs
+# remark-code-tabs
 
 A [remark](https://www.npmjs.com/package/remark) plugin to render code tabs in MDX.
 
@@ -37,7 +37,7 @@ const components = {
   Tab: Tab,
   }
   
-  export default function App({content) {
+  export default function App({content}) {
   return (
       <MDXRemote {...content} components={components} />
   );
