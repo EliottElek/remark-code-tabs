@@ -1,4 +1,3 @@
-import { DuplicateIcon } from "@heroicons/react/outline";
 import React from "react";
 
 export const Tab = ({ label, children, currentTab, setCurrentTab }) => {
@@ -31,12 +30,7 @@ const Tabs = ({ children }) => {
           </Tab>
         ))}
       </div>
-      <div className="relative">
-        {currentTab.props.children}
-        <button className="text-slate-200 h-6 w-6 absolute -top-4 right-2">
-          <DuplicateIcon className="text-slate-200 opacity-30 hover:opacity-100 duration-75" />
-        </button>
-      </div>
+      <div className="relative">{currentTab.props.children}</div>
     </div>
   );
 };
