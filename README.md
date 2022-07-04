@@ -44,15 +44,15 @@ const components = {
 }
 ``` 
 
+> Note: you can use your own `Tabs` and `Tab` components, juste make sure they follow the same structure.
+
 Turns a `.mdx` file with content : 
 
 <img width="576" alt="image" src="https://user-images.githubusercontent.com/64375473/177173805-7a2fb171-f754-4a4d-af8a-d6e42b2c2f06.png">
+
+> Note: The `-end` is very important, as it defines the last tab item.
 
 into : 
 
 <img width="837" alt="image" src="https://user-images.githubusercontent.com/64375473/177173864-0c6b0501-b4d3-4f0f-8136-b01d4695fd3c.png">
 
-
-## Important
-
-The `end` at the last tab item is **important**. It determinates the last item.
